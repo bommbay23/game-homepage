@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <%- include("./partials/nav.ejs") %>
+
+    <section class="hero">
+        <div class="container"></div>
+    </section>
+    <section id="slider">
+          
+    <div class="slider" reverse="true" style="
+    --width: 300px;
+    --height: 200px;
+    --quantity: 6;
+">
+    <div class="list">
+        <div class="item" style="--position: 1"><img src="assets/foto.jpg" alt=""></div>
+        <div class="item" style="--position: 2"><img src="assets/foto.jpg" alt=""></div>
+        <div class="item" style="--position: 3"><img src="assets/foto.jpg" alt=""></div>
+        <div class="item" style="--position: 4"><img src="assets/foto.jpg" alt=""></div>
+        <div class="item" style="--position: 5"><img src="assets/foto.jpg" alt=""></div>
+        <div class="item" style="--position: 6"><img src="assets/foto.jpg" alt=""></div>
+
+    </div>
+</div>
+    </section>
+    <section id="About" class="about">
+        <div class="left">
+
+            <h1>About </h1>
+        </div>
+        <div class="right">
+            <h1 class="right">Nevänite</h1><br>
+            <p>Nevänite sendiri diadaptasi dari kata “adventure night”. Peserta diharapkan untuk dapat merasakan petualangan seru di malam hari sehingga dapat meningkatkan kebersamaan <br>
+                dan keharmonisan dalam lingkungan sekolah.</p><br> 
+            <a href="">Baca Selengkapnya -></a>
+        </div>
+    </section>
+
+    <section class="floating-img"></section>
+
+    <section id="Dokum" class="video-uni">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/zV5oNERHoaY?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="left">
+
+        </div>
+        <div class="right">
+            <h1>Absensi</h1>
+            <span style="color: #339966; border-bottom: 20px;" >Keterangan</span><br>
+            <p>Pada kegiatan Camping night peserta diwajibkan untuk hadir jika tidak memiliki alsan yang jelas</p><br>
+            <input type="checkbox" name="hadir" id="">hadir 
+            <input type="checkbox" name="Tidak hadir" id="">Tidak hadir <br>
+            <button type="submit" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSerXWLJevzRmZ2W2Ifb6W-WzwFhxq4bO2Op0KElwQR3zfLTYg/viewform?usp=sf_link'"style="height: 50px; width: 90px; background-color: #3db166; color: white; font-weight: bolder; cursor: pointer; margin-top: 20px;" >ADMISI</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-items">
+            <i class='bx bxs-game'></i>
+            <h3>Games</h4><br>
+            <p>Pada acara akan disediakan beberapa games yang seru dan menarik sehingga dapat menciptakan acara yang dinamis.</p>
+        </div>
+        <div class="feature-items">
+            <i class='bx bx-search-alt-2'></i>
+            <h3>
+                Criminal case</h3><br>
+            <p>Criminal Case adalah permainan detektif di mana pemain menyelidiki TKP, menemukan petunjuk, memecahkan teka-teki, dan menangkap pelaku kejahatan dalam serangkaian kasus kriminal.</p>
+        </div>
+        <div class="feature-items">
+            <i class='bx bx-male-female'></i>
+            <h3>Api unggun</h3><br>
+            <p>Kegiatan api unggun adalah acara berkumpul di sekitar api untuk bernyanyi, bercerita, bermain, dan mempererat kebersamaan.</p>
+        </div>
+        <div class="feature-items">
+            <i class='bx bx-video' ></i>
+            <h3>Movie Night</h3><br>
+            <p>acara menonton film bersama teman untuk bersantai, bersenang-senang, dan menikmati waktu kebersamaan.</p>
+        </div>
+        <div class="feature-items">
+            <i class='bx bxs-tree' ></i>
+            <h3>Tree letter</h3><br>
+            <p>"Tree Letter" adalah permainan kata di mana pemain harus menyusun kata-kata dengan tiga huruf yang berbeda untuk melatih kreativitas dan kecepatan berpikir.</p>
+        </div>
+    </section>
+    <section id="Acara" class="news">
+        <div class="news-items">
+            <div class="photo1"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">movie night</a>
+        </div>
+        <div class="news-items">
+            <div class="photo2"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">api unggun</a>
+        </div>
+        <div class="news-items">
+            <div class="photo3"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">fun cooking</a>
+        </div>
+        <div class="news-items">
+            <div class="photo4"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">criminal case</a>
+        </div>
+        <div class="news-items">
+            <div class="photo5"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">tree letter</a>
+        </div>
+        <div class="news-items">
+            <div class="photo6"></div>
+            <h6>Maret 13,2024</h6>
+            <a href="" target="_self">games</a>
+        </div>
+    </section>
+   
+    <section id="profile">
+        <div class="wrapper">
+            <i id="left"   class="fa-solid fa-angle-left"></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="assets/foto.jpg" alt=""></div>
+                    <h2>Jason Marvel</h2>
+                    <span>Seksi Bendahara & Sekretaris <br>
+                        Seksi Acara
+                    </span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="assets/foto.jpg" alt=""></div>
+                    <h2>Jovan lauw</h2>
+                    <span>Seksi Sekretariat</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                    <h2>Ruth Abigail L</h2>
+                    <span>Seksi Sekretariat</span>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Nayla Salsabila Zulva</h2>
+                        <span>Seksi Publikasi</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Rifqi Ariqin Halim S</h2>
+                        <span>Seksi Publikasi</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Nabila Putri Awaliyah</h2>
+                        <span>Seksi Publikasi</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Imanuella Thiodora Marbun</h2>
+                        <span>Seksi Publikasi</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>fabian ghafiqi Ahmad</h2>
+                        <span>Seksi Acara</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Michelle Angelieque G</h2>
+                        <span>Seksi Acara</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Michiko Alexandra S</h2>
+                        <span>Seksi Acara</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Margaretha Queen G</h2>
+                        <span>Seksi Acara</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Halimah Hazarani</h2>
+                        <span>Seksi Acara</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Muhammad Yusuf</h2>
+                        <span>Seksi Performance</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Felicia Arthauli Tambunan</h2>
+                        <span>Seksi Performance <br>
+                            Seksi Bendahara & Sekretaris </span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Callysta Andrien bernaice W</h2>
+                        <span>Seksi Performance</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Salsabila Indah Putri</h2>
+                        <span>Seksi Performance</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Austin Uno Hendry </h2>
+                        <span>Seksi Multimedia</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Francisco Andrew</h2>
+                        <span>Seksi Multimedia</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>M.Daffa Aqeela Shidqi</h2>
+                        <span>Seksi Multimedia <br>
+                            Seksi Bendahara & Sekretaris </span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>Mirza Viatmaja</h2>
+                        <span>Seksi Bendahara & Sekretaris </span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="assets/foto.jpg" alt="" draggable="false"></div>
+                        <h2>celine aurelia tan</h2>
+                        <span>Ketua Panitia</span>
+                    </li>
+                    
+                    </li>
+                </li>
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+    </section>
+
+    <footer>
+        <section class="nav-buttons">
+            <a href="#top" class="go-to-top-btn">
+                <i class='bx bxs-chevron-up'></i>
+            </a>
+            <a href="#" class="wa-btn">
+                <i class='bx bxl-whatsapp' style='color:rgba(255, 255, 255, 1)'  ></i>
+
+            </a>
+        </section>
+    </footer>
+
+    <%- include("./partials/footer.ejs") %>
+</body>
+</html>
